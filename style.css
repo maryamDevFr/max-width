@@ -1,0 +1,98 @@
+.box div{
+   width: 200px;
+   height: 200px;
+   background-color: red;
+   color: white;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: black;
+}
+@media (max-width:1237px) {
+    .box div{
+        width: 250px;
+        height: 200px;
+        background-color: blue;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    body{
+        background-color: yellow;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1000px){
+    .box div{
+        width: 250px;
+        height: 200px;
+        background-color: black;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+    body{
+        background-color: red;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:859px){
+    .box div{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    body{
+        background-color:yellow;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:755px){
+    .box div{
+        width: 200px;
+        height: 100px;
+        background-color: pink;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    body{
+        background-color:purple;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
